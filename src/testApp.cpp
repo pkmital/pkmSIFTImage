@@ -99,12 +99,17 @@ void testApp::draw() {
 	sprintf(buf, "frame: %d/%d", currentFrame, totalFrames);
 	ofDrawBitmapString(buf, ofPoint(20,videoReader->getHeight() + 55));
     
+    sprintf(buf, "mode: %s (press SPACE to toggle)", siftImage.getMode().c_str());
+    ofDrawBitmapString(buf, ofPoint(20,videoReader->getHeight() + 70));
+    
 }
 
 //--------------------------------------------------------------
 void testApp::keyPressed  (int key){
     if(key == 'n')
         currentFrame = totalFrames;
+    else if(key == ' ')
+        siftImage.toggleMode();
 
 }
 

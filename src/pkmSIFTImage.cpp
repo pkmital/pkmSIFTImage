@@ -52,14 +52,14 @@ void pkmSIFTImage::allocate(int w, int h)
     {
         printf("[pkmSIFTImage]: Reallocating...\n");
         
-        if (mode == MODE_TORRALBA) {
+        //if (mode == MODE_TORRALBA) {
             grayImg.allocate(w,h);
             if (bAllocatedCompressedSIFT) {
                 delete compressedSiftImg;
                 bAllocatedCompressedSIFT = false;
             }
-        }
-        else if (mode == MODE_OPENCV) {
+        //}
+        //else if (mode == MODE_OPENCV) {
             imageKeypoints.clear();
             for(int i = 0; i < h; i+=stepSize)
             {
@@ -77,7 +77,7 @@ void pkmSIFTImage::allocate(int w, int h)
                                                                                  -1,            // first octave
                                                                                  1) );          // FIRST_ANGLE = 0, AVERAGE_ANGLE = 1
     
-        }
+        //}
     }
     
     

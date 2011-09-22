@@ -27,8 +27,8 @@ using namespace cv;
 #include "ImageFeature.h"
 
 enum SIFTMODE {
-    MODE_OPENCV,
-    MODE_TORRALBA
+    MODE_OPENCV = 0,
+    MODE_TORRALBA = 1
 };
 
 class pkmSIFTImage
@@ -40,6 +40,26 @@ public:
     
     void allocate(int w, int h);
     void computeSIFTImage(unsigned char *pixels, int w, int h);
+    
+    void toggleMode()
+    {
+        if (mode == MODE_TORRALBA) {
+            mode = MODE_OPENCV;
+        }
+        else if( mode == MODE_OPENCV) {
+            mode = MODE_TORRALBA;
+        }
+    }
+    
+    string getMode()
+    {
+        if (mode == MODE_OPENCV) {
+            return string("OpenCV based SIFT");
+        }
+        else if(mode == MODE_TORRALBA) {
+            return string("Torralba based SIFT");
+        }
+    }
     
     unsigned char * getSIFTImageForDrawing();
     

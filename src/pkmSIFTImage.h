@@ -52,7 +52,7 @@ protected:
     int width, height;
     
     // OpenCV based SIFT
-    cv::Ptr<DescriptorExtractor> descriptorExtractor;
+    cv::Ptr<SiftDescriptorExtractor> descriptorExtractor;
     vector<KeyPoint> imageKeypoints;
     Mat descriptors;
     

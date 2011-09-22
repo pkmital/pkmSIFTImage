@@ -61,17 +61,25 @@ void pkmSIFTImage::allocate(int w, int h)
         }
         else if (mode == MODE_OPENCV) {
             imageKeypoints.clear();
-            for(int i = 0; i < h; i++)
+            for(int i = 0; i < h; i+=stepSize)
             {
-                for(int j = 0; j < w; j++)
+                for(int j = 0; j < w; j+=stepSize)
                 {
                     imageKeypoints.push_back(KeyPoint(Point2f(j,i), cellSize));
                 }
             }
+            
+            descriptorExtractor = new SiftDescriptorExtractor( SIFT::DescriptorParams(2,        // magnification
+                                                                                      true,     // normalize?
+                                                                                      true),    // recalculate angles?
+                                                              SIFT::CommonParams(3,             // number of octaves
+                                                                                 1,             // number of octave layers
+                                                                                 -1,            // first octave
+                                                                                 1) );          // FIRST_ANGLE = 0, AVERAGE_ANGLE = 1
+    
         }
     }
     
-    descriptorExtractor = DescriptorExtractor::create( "SIFT" );
     
     width = w;
     height = h;
@@ -158,12 +166,12 @@ bool pkmSIFTImage::computeCompressedSIFTImage()
             }
             
             pcaset.convertTo(pcaset32, CV_32FC1);
+            projected = pcaSIFT * pcaset32.t();
         }
         else if(mode == MODE_OPENCV)
         {
-            descriptors.convertTo(pcaset32, CV_32FC1);
+            projected = pcaSIFT * descriptors.t();
         }
-        projected = pcaSIFT * pcaset32.t();
 
         // Map the first PCA dimension to luminance (R+G+B), 
         // map the second to R-G and the third one to (R+G)/2-B

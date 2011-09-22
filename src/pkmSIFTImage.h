@@ -22,8 +22,14 @@
 #pragma once
 
 #include <opencv2/opencv.hpp>
+using namespace cv;
 #include "Image.h"
 #include "ImageFeature.h"
+
+enum SIFTMODE {
+    MODE_OPENCV,
+    MODE_TORRALBA
+};
 
 class pkmSIFTImage
 {
@@ -45,6 +51,15 @@ protected:
     // Image Dimensions
     int width, height;
     
+    // OpenCV based SIFT
+    cv::Ptr<DescriptorExtractor> descriptorExtractor;
+    vector<KeyPoint> imageKeypoints;
+    Mat descriptors;
+    
+    // Methods for computing the Dense SIFT Image
+    void computeSIFTImageTorralba(unsigned char *pixels, int w, int h);
+    void computeSIFTImageOpenCV(unsigned char *pixels, int w, int h);
+    
     // Image containers
     Image<unsigned char> grayImg, siftImg;
     
@@ -55,6 +70,7 @@ protected:
     Mat pcaSIFT, projected, siftColor;
     unsigned char *compressedSiftImg;
     
+    SIFTMODE mode;
     
     bool bComputedSIFT, bAllocatedCompressedSIFT, bComputedCompressedSIFT;
     

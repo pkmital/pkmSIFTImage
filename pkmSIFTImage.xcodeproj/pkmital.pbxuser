@@ -31,7 +31,7 @@
 		ignoreCount = 0;
 		lineNumber = 88;
 		location = CHoGDebug;
-		modificationTime = 338418134.321079;
+		modificationTime = 338420774.792802;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -284,7 +284,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 87;
-		modificationTime = 338418134.319619;
+		modificationTime = 338420774.791649;
 		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
@@ -302,7 +302,7 @@
 		ignoreCount = 0;
 		lineNumber = 53;
 		location = CHoGDebug;
-		modificationTime = 338418134.320234;
+		modificationTime = 338420774.79207;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -320,7 +320,7 @@
 		ignoreCount = 0;
 		lineNumber = 103;
 		location = CHoGDebug;
-		modificationTime = 338418134.320669;
+		modificationTime = 338420774.792401;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -514,17 +514,17 @@
 	};
 	89FF7A9B142B49690028B933 /* pkmSIFTImage.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {801, 840}}";
-			sepNavSelRange = "{244, 0}";
-			sepNavVisRange = "{39, 762}";
+			sepNavIntBoundsRect = "{{0, 0}, {749, 1092}}";
+			sepNavSelRange = "{1755, 0}";
+			sepNavVisRange = "{821, 1159}";
 			sepNavWindowFrame = "{{126, 59}, {808, 819}}";
 		};
 	};
 	89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {749, 2100}}";
-			sepNavSelRange = "{2726, 0}";
-			sepNavVisRange = "{0, 1255}";
+			sepNavIntBoundsRect = "{{0, 0}, {749, 2870}}";
+			sepNavSelRange = "{4720, 0}";
+			sepNavVisRange = "{2490, 1704}";
 			sepNavWindowFrame = "{{180, 58}, {808, 819}}";
 		};
 	};
@@ -615,7 +615,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 38";
 		rLen = 0;
-		rLoc = 885;
+		rLoc = 960;
 		rType = 0;
 		vrLen = 837;
 		vrLoc = 79;
@@ -665,7 +665,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 36";
 		rLen = 0;
-		rLoc = 1028;
+		rLoc = 1103;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 0;
@@ -807,7 +807,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 31";
 		rLen = 0;
-		rLoc = 885;
+		rLoc = 960;
 		rType = 0;
 		vrLen = 429;
 		vrLoc = 79;
@@ -817,7 +817,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 32";
 		rLen = 0;
-		rLoc = 1028;
+		rLoc = 1103;
 		rType = 0;
 		vrLen = 696;
 		vrLoc = 0;
@@ -827,7 +827,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 33";
 		rLen = 0;
-		rLoc = 885;
+		rLoc = 960;
 		rType = 0;
 		vrLen = 411;
 		vrLoc = 79;
@@ -837,7 +837,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 45";
 		rLen = 0;
-		rLoc = 918;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 913;
 		vrLoc = 3;
@@ -848,7 +848,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 36;
+		rLoc = 42;
 		rType = 1;
 	};
 	89FF7AF6142BB5B50028B933 /* PBXTextBookmark */ = {
@@ -866,7 +866,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 115";
 		rLen = 0;
-		rLoc = 987;
+		rLoc = 1062;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 916;
@@ -895,7 +895,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 82";
 		rLen = 0;
-		rLoc = 982;
+		rLoc = 1057;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 916;
@@ -965,7 +965,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 13";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1666;
 		vrLoc = 148;
@@ -975,7 +975,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 13";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1629;
 		vrLoc = 148;
@@ -985,7 +985,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 89";
 		rLen = 0;
-		rLoc = 982;
+		rLoc = 1057;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 916;
@@ -995,7 +995,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 64";
 		rLen = 0;
-		rLoc = 977;
+		rLoc = 1052;
 		rType = 0;
 		vrLen = 425;
 		vrLoc = 491;
@@ -1045,7 +1045,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 108";
 		rLen = 0;
-		rLoc = 4387;
+		rLoc = 5607;
 		rType = 0;
 		vrLen = 1242;
 		vrLoc = 147;
@@ -1134,7 +1134,7 @@
 		isa = PBXTextBookmark;
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		rLen = 0;
-		rLoc = 1549;
+		rLoc = 1982;
 		rType = 0;
 	};
 	89FF7B32142BB8930028B933 /* PBXTextBookmark */ = {
@@ -1142,7 +1142,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -1242,7 +1242,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1650;
 		vrLoc = 1363;
@@ -1252,7 +1252,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1647;
 		vrLoc = 1363;
@@ -1312,7 +1312,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1647;
 		vrLoc = 1363;
@@ -1352,7 +1352,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1702;
 		vrLoc = 1363;
@@ -1392,7 +1392,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1692;
 		vrLoc = 1363;
@@ -1432,7 +1432,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1688;
 		vrLoc = 1363;
@@ -1472,7 +1472,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1688;
 		vrLoc = 1363;
@@ -1512,7 +1512,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1712;
 		vrLoc = 1363;
@@ -1552,7 +1552,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1712;
 		vrLoc = 1363;
@@ -1592,7 +1592,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1710;
 		vrLoc = 1359;
@@ -1632,7 +1632,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1712;
 		vrLoc = 1359;
@@ -1672,7 +1672,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1714;
 		vrLoc = 1359;
@@ -1722,7 +1722,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 103";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 2545;
@@ -1732,7 +1732,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 106";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 576;
 		vrLoc = 2644;
@@ -1752,7 +1752,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 106";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 690;
 		vrLoc = 2596;
@@ -1782,7 +1782,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 83";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1714;
 		vrLoc = 1359;
@@ -1802,7 +1802,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 110";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 693;
 		vrLoc = 2644;
@@ -1812,7 +1812,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 110";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 691;
 		vrLoc = 2644;
@@ -1822,7 +1822,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 108";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1657;
 		vrLoc = 1719;
@@ -1852,7 +1852,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 110";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 483;
 		vrLoc = 2946;
@@ -1862,7 +1862,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 105";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1658;
 		vrLoc = 1719;
@@ -1892,7 +1892,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 85";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 1915;
@@ -1906,7 +1906,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 86";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 899;
 		vrLoc = 1874;
@@ -1916,7 +1916,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 105";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1664;
 		vrLoc = 1719;
@@ -1926,7 +1926,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 120";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 1200;
 		vrLoc = 2229;
@@ -1936,7 +1936,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -1993,7 +1993,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 86";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 893;
 		vrLoc = 1926;
@@ -2003,7 +2003,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 115";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1200;
 		vrLoc = 2229;
@@ -2013,7 +2013,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -2053,7 +2053,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 86";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 1981;
@@ -2073,7 +2073,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -2083,7 +2083,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 115";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1200;
 		vrLoc = 2229;
@@ -2113,7 +2113,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 86";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 2119;
@@ -2133,7 +2133,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -2143,7 +2143,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 115";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1200;
 		vrLoc = 2229;
@@ -2173,7 +2173,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 86";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 889;
 		vrLoc = 2191;
@@ -2183,7 +2183,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 119";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 2365;
@@ -2203,7 +2203,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -2233,7 +2233,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 86";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 914;
 		vrLoc = 2229;
@@ -2253,7 +2253,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 119";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 2365;
@@ -2263,7 +2263,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -2293,7 +2293,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 86";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 2333;
@@ -2303,7 +2303,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 119";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 2365;
@@ -2323,7 +2323,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -2353,7 +2353,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 86";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 860;
 		vrLoc = 2333;
@@ -2446,7 +2446,7 @@
 		isa = PBXTextBookmark;
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		rLen = 0;
-		rLoc = 4517;
+		rLoc = 5737;
 		rType = 0;
 	};
 	89FF7C44142BC1650028B933 /* PBXTextBookmark */ = {
@@ -2454,7 +2454,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 15";
 		rLen = 0;
-		rLoc = 832;
+		rLoc = 861;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 0;
@@ -2464,7 +2464,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -2504,7 +2504,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 115";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 2365;
@@ -2514,7 +2514,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -2554,7 +2554,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 122";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 2365;
@@ -2564,7 +2564,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -2604,7 +2604,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 112";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 2365;
@@ -2614,7 +2614,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -2664,7 +2664,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 112";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 2365;
@@ -2704,7 +2704,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 14";
 		rLen = 0;
-		rLoc = 814;
+		rLoc = 843;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 0;
@@ -2743,7 +2743,7 @@
 		isa = PBXTextBookmark;
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		rLen = 0;
-		rLoc = 135;
+		rLoc = 181;
 		rType = 1;
 	};
 	89FF7C78142BC3800028B933 /* PBXTextBookmark */ = {
@@ -2751,7 +2751,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 119";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 236;
 		vrLoc = 3193;
@@ -2779,7 +2779,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 119";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 269;
 		vrLoc = 3160;
@@ -2788,7 +2788,7 @@
 		isa = PBXTextBookmark;
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		rLen = 0;
-		rLoc = 4517;
+		rLoc = 5737;
 		rType = 0;
 	};
 	89FF7C82142BC3A60028B933 /* PBXTextBookmark */ = {
@@ -2796,7 +2796,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 54";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1300;
 		vrLoc = 276;
@@ -2806,7 +2806,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -2836,7 +2836,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 119";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 199;
 		vrLoc = 3230;
@@ -2846,7 +2846,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 55";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1426;
 		vrLoc = 485;
@@ -2876,7 +2876,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 119";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 130;
 		vrLoc = 3299;
@@ -2886,7 +2886,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 54";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1488;
 		vrLoc = 530;
@@ -2916,7 +2916,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 119";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 62;
 		vrLoc = 3367;
@@ -2926,7 +2926,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 119";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 2402;
@@ -2956,7 +2956,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 43";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 593;
 		vrLoc = 323;
@@ -2966,7 +2966,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 119";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 130;
 		vrLoc = 3299;
@@ -2976,7 +2976,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 17";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 2723;
@@ -2986,7 +2986,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 17";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 648;
 		vrLoc = 2781;
@@ -2996,7 +2996,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 124";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 1632;
 		vrLoc = 1797;
@@ -3006,7 +3006,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 124";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 1632;
 		vrLoc = 1797;
@@ -3026,7 +3026,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 17";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 667;
 		vrLoc = 2632;
@@ -3036,7 +3036,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 94";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1632;
 		vrLoc = 1797;
@@ -3056,7 +3056,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 17";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 678;
 		vrLoc = 2751;
@@ -3066,7 +3066,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 93";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1632;
 		vrLoc = 1797;
@@ -3086,7 +3086,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 17";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 678;
 		vrLoc = 2751;
@@ -3096,7 +3096,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 93";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1632;
 		vrLoc = 1797;
@@ -3116,7 +3116,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 17";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 714;
 		vrLoc = 2715;
@@ -3126,7 +3126,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 97";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1632;
 		vrLoc = 1797;
@@ -3146,7 +3146,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 17";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 810;
 		vrLoc = 2619;
@@ -3156,7 +3156,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 100";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1667;
 		vrLoc = 1762;
@@ -3166,7 +3166,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 26";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 0;
@@ -3175,7 +3175,7 @@
 		isa = PBXTextBookmark;
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		rLen = 0;
-		rLoc = 1549;
+		rLoc = 1982;
 		rType = 0;
 	};
 	89FF7CCF142BCA400028B933 /* PBXTextBookmark */ = {
@@ -3183,7 +3183,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 40";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3203,7 +3203,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 17";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 696;
 		vrLoc = 2320;
@@ -3213,7 +3213,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 26";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 0;
@@ -3223,7 +3223,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 35";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1241;
 		vrLoc = 470;
@@ -3233,7 +3233,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 40";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3253,7 +3253,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 17";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 886;
 		rType = 0;
 		vrLen = 696;
 		vrLoc = 2204;
@@ -3263,7 +3263,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 41";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1265;
 		vrLoc = 2164;
@@ -3273,7 +3273,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 40";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3293,7 +3293,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 89";
 		rLen = 0;
-		rLoc = 3179;
+		rLoc = 4199;
 		rType = 0;
 		vrLen = 572;
 		vrLoc = 1586;
@@ -3304,7 +3304,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 35;
+		rLoc = 37;
 		rType = 1;
 	};
 	89FF7CE4142BCC470028B933 /* PBXTextBookmark */ = {
@@ -3312,7 +3312,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 35";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 546;
 		vrLoc = 552;
@@ -3322,7 +3322,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 138";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 2489;
@@ -3332,7 +3332,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 132";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 1720;
 		vrLoc = 1709;
@@ -3342,7 +3342,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 40";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3362,7 +3362,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 35";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 613;
 		vrLoc = 558;
@@ -3372,7 +3372,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 132";
 		rLen = 0;
-		rLoc = 4266;
+		rLoc = 5486;
 		rType = 0;
 		vrLen = 1720;
 		vrLoc = 1709;
@@ -3382,7 +3382,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 106";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 2276;
@@ -3392,7 +3392,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 40";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3412,7 +3412,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 35";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 613;
 		vrLoc = 558;
@@ -3422,7 +3422,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 35";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 652;
 		vrLoc = 558;
@@ -3432,7 +3432,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 106";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 2276;
@@ -3442,7 +3442,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 40";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3462,7 +3462,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 35";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 596;
 		vrLoc = 614;
@@ -3472,7 +3472,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 109";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 2276;
@@ -3482,7 +3482,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 40";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3502,7 +3502,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 35";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 600;
 		vrLoc = 663;
@@ -3512,7 +3512,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 101";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 2276;
@@ -3522,7 +3522,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 40";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3542,7 +3542,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 35";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 423;
 		vrLoc = 748;
@@ -3559,7 +3559,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 35";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 663;
@@ -3579,7 +3579,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 44";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 614;
 		vrLoc = 292;
@@ -3589,7 +3589,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 42";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 566;
 		vrLoc = 350;
@@ -3599,7 +3599,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 101";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 2276;
@@ -3609,7 +3609,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 36";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1101;
 		vrLoc = 24;
@@ -3619,7 +3619,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 40";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3629,7 +3629,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 15";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 875;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3649,7 +3649,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 42";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 566;
 		vrLoc = 350;
@@ -3659,7 +3659,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 108";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1488;
 		vrLoc = 1941;
@@ -3669,7 +3669,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 15";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 875;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3689,7 +3689,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 37";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 1267;
@@ -3699,7 +3699,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 42";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 566;
 		vrLoc = 350;
@@ -3709,7 +3709,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 42";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 523;
 		vrLoc = 393;
@@ -3719,7 +3719,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 109";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1543;
 		vrLoc = 1886;
@@ -3739,7 +3739,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 15";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 875;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3749,7 +3749,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 15";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 875;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3769,12 +3769,12 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 42";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 523;
 		vrLoc = 393;
 	};
-	89FF7D28142BD0B10028B933 /* pkmSIFTImage.cpp:112 */ = {
+	89FF7D28142BD0B10028B933 /* pkmSIFTImage.cpp:161 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -3786,9 +3786,9 @@
 		functionName = "pkmSIFTImage::computeCompressedSIFTImage()";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 112;
+		lineNumber = 161;
 		location = CHoGDebug;
-		modificationTime = 338418134.321451;
+		modificationTime = 338420774.793095;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -3797,7 +3797,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 42";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 523;
 		vrLoc = 393;
@@ -3827,7 +3827,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 15";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 875;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3847,7 +3847,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 42";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 523;
 		vrLoc = 393;
@@ -3857,7 +3857,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 39";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1366;
 		vrLoc = 2063;
@@ -3867,7 +3867,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 15";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 875;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3887,7 +3887,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 42";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 523;
 		vrLoc = 393;
@@ -3897,7 +3897,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 39";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1261;
 		vrLoc = 2168;
@@ -3907,7 +3907,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 15";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 875;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -3927,7 +3927,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 39";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 606;
 		vrLoc = 585;
@@ -3941,7 +3941,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 39";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 714;
 		vrLoc = 477;
@@ -3975,7 +3975,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 39";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 692;
 		vrLoc = 515;
@@ -3985,7 +3985,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 123";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 595;
 		vrLoc = 2834;
@@ -4015,7 +4015,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 35";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 608;
 		vrLoc = 565;
@@ -4025,7 +4025,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 117";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 4649;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 2122;
@@ -4055,7 +4055,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 38";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 640;
@@ -4065,7 +4065,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 38";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1230;
 		vrLoc = 2199;
@@ -4095,7 +4095,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 41";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 640;
 		vrLoc = 739;
@@ -4105,7 +4105,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 38";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1479;
 		vrLoc = 1950;
@@ -4135,7 +4135,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 41";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 640;
 		vrLoc = 739;
@@ -4145,7 +4145,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 38";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 595;
 		vrLoc = 819;
@@ -4155,7 +4155,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 53";
 		rLen = 0;
-		rLoc = 1509;
+		rLoc = 1996;
 		rType = 0;
 		vrLen = 1486;
 		vrLoc = 591;
@@ -4185,7 +4185,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 38";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 612;
 		vrLoc = 875;
@@ -4205,7 +4205,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 94";
 		rLen = 0;
-		rLoc = 3733;
+		rLoc = 4953;
 		rType = 0;
 		vrLen = 1734;
 		vrLoc = 1695;
@@ -4225,7 +4225,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 38";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 1140;
@@ -4235,7 +4235,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 94";
 		rLen = 0;
-		rLoc = 3586;
+		rLoc = 4806;
 		rType = 0;
 		vrLen = 1666;
 		vrLoc = 1660;
@@ -4265,7 +4265,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 35";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 1231;
@@ -4275,7 +4275,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 16";
 		rLen = 0;
-		rLoc = 832;
+		rLoc = 861;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 24;
@@ -4305,7 +4305,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 34";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 698;
 		vrLoc = 1292;
@@ -4315,7 +4315,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 52";
 		rLen = 0;
-		rLoc = 1514;
+		rLoc = 2001;
 		rType = 0;
 		vrLen = 1629;
 		vrLoc = 1800;
@@ -4324,7 +4324,7 @@
 		isa = PBXTextBookmark;
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		rLen = 0;
-		rLoc = 1549;
+		rLoc = 1982;
 		rType = 0;
 	};
 	89FF7D8A142BD49E0028B933 /* PBXTextBookmark */ = {
@@ -4332,7 +4332,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 41";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 0;
@@ -4456,7 +4456,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 30";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1389;
 		vrLoc = 251;
@@ -4496,7 +4496,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 30";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1643;
 		vrLoc = 1715;
@@ -4536,7 +4536,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 100";
 		rLen = 0;
-		rLoc = 4228;
+		rLoc = 5448;
 		rType = 0;
 		vrLen = 1667;
 		vrLoc = 1690;
@@ -4576,7 +4576,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 100";
 		rLen = 0;
-		rLoc = 4228;
+		rLoc = 5448;
 		rType = 0;
 		vrLen = 1667;
 		vrLoc = 1690;
@@ -4616,7 +4616,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 29";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1654;
 		vrLoc = 1775;
@@ -4656,7 +4656,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 102";
 		rLen = 0;
-		rLoc = 4228;
+		rLoc = 5448;
 		rType = 0;
 		vrLen = 1304;
 		vrLoc = 44;
@@ -4696,7 +4696,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 30";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 44;
@@ -4736,7 +4736,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 30";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 44;
@@ -4776,7 +4776,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 30";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1231;
 		vrLoc = 0;
@@ -4816,7 +4816,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 28";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1038;
 		rType = 0;
 		vrLen = 1242;
 		vrLoc = 0;
@@ -4856,7 +4856,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 92";
 		rLen = 0;
-		rLoc = 3746;
+		rLoc = 4966;
 		rType = 0;
 		vrLen = 1667;
 		vrLoc = 1725;
@@ -4895,7 +4895,7 @@
 		isa = PBXTextBookmark;
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		rLen = 0;
-		rLoc = 1549;
+		rLoc = 1982;
 		rType = 0;
 	};
 	89FF7DEA142BD7400028B933 /* PBXTextBookmark */ = {
@@ -4903,7 +4903,7 @@
 		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
 		name = "pkmSIFTImage.h: 29";
 		rLen = 0;
-		rLoc = 1033;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 915;
 		vrLoc = 0;
@@ -4913,7 +4913,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 75";
 		rLen = 0;
-		rLoc = 2350;
+		rLoc = 3370;
 		rType = 0;
 		vrLen = 1242;
 		vrLoc = 0;
@@ -4952,7 +4952,7 @@
 		isa = PBXTextBookmark;
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		rLen = 0;
-		rLoc = 4517;
+		rLoc = 5737;
 		rType = 0;
 	};
 	89FF7DF6142BD8480028B933 /* PBXTextBookmark */ = {
@@ -4960,7 +4960,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 94";
 		rLen = 0;
-		rLoc = 3746;
+		rLoc = 4966;
 		rType = 0;
 		vrLen = 1885;
 		vrLoc = 1448;
@@ -5143,7 +5143,7 @@
 		isa = PBXTextBookmark;
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		rLen = 0;
-		rLoc = 9223372036854776051;
+		rLoc = 9223372036854777271;
 		rType = 0;
 	};
 	89FF7E36142BD9B20028B933 /* PBXTextBookmark */ = {
@@ -5151,7 +5151,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 71";
 		rLen = 0;
-		rLoc = 1996;
+		rLoc = 2325;
 		rType = 0;
 		vrLen = 1471;
 		vrLoc = 1163;
@@ -5191,7 +5191,7 @@
 		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
 		name = "pkmSIFTImage.cpp: 68";
 		rLen = 0;
-		rLoc = 1996;
+		rLoc = 2325;
 		rType = 0;
 		vrLen = 1502;
 		vrLoc = 1163;
@@ -5246,6 +5246,516 @@
 		vrLen = 762;
 		vrLoc = 39;
 	};
+	89FF7E48142BE12B0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
+		name = "testApp.h: 10";
+		rLen = 0;
+		rLoc = 348;
+		rType = 0;
+		vrLen = 1170;
+		vrLoc = 3;
+	};
+	89FF7E49142BE12B0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7E4A142BE12B0028B933 /* descriptor_extractor_matcher.cpp */;
+		name = "descriptor_extractor_matcher.cpp: 226";
+		rLen = 91;
+		rLoc = 9092;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 8690;
+	};
+	89FF7E4A142BE12B0028B933 /* descriptor_extractor_matcher.cpp */ = {
+		isa = PBXFileReference;
+		name = descriptor_extractor_matcher.cpp;
+		path = "/Users/pkmital/Coding/opencv-dev/samples/cpp/descriptor_extractor_matcher.cpp";
+		sourceTree = "<absolute>";
+	};
+	89FF7E4B142BE12B0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 9";
+		rLen = 0;
+		rLoc = 244;
+		rType = 0;
+		vrLen = 762;
+		vrLoc = 39;
+	};
+	89FF7E4C142BE12B0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 39";
+		rLen = 0;
+		rLoc = 955;
+		rType = 0;
+		vrLen = 427;
+		vrLoc = 774;
+	};
+	89FF7E4F142BE12B0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 39";
+		rLen = 0;
+		rLoc = 1038;
+		rType = 0;
+		vrLen = 1122;
+		vrLoc = 567;
+	};
+	89FF7E50142BE12B0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 113";
+		rLen = 0;
+		rLoc = 2950;
+		rType = 0;
+		vrLen = 1607;
+		vrLoc = 2330;
+	};
+	89FF7E53142BE12B0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 57";
+		rLen = 0;
+		rLoc = 1440;
+		rType = 0;
+		vrLen = 1137;
+		vrLoc = 800;
+	};
+	89FF7E54142BE12B0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 57";
+		rLen = 0;
+		rLoc = 1440;
+		rType = 0;
+		vrLen = 1137;
+		vrLoc = 800;
+	};
+	89FF7E60142BE1DE0028B933 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ';' before '<' token";
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 54;
+		rType = 1;
+	};
+	89FF7E61142BE1DE0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 55";
+		rLen = 0;
+		rLoc = 1278;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 956;
+	};
+	89FF7E62142BE1DE0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 54";
+		rLen = 19;
+		rLoc = 1307;
+		rType = 0;
+		vrLen = 1137;
+		vrLoc = 800;
+	};
+	89FF7E63142BE1DE0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 57";
+		rLen = 11;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 1218;
+		vrLoc = 219;
+	};
+	89FF7E64142BE1DE0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 116";
+		rLen = 0;
+		rLoc = 3019;
+		rType = 0;
+		vrLen = 1646;
+		vrLoc = 2330;
+	};
+	89FF7E65142BE1DE0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 27";
+		rLen = 0;
+		rLoc = 820;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 1110;
+	};
+	89FF7E6A142BE2230028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 55";
+		rLen = 0;
+		rLoc = 1282;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 956;
+	};
+	89FF7E6B142BE2230028B933 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'class cv::DescriptorExtractor' has no member named 'detect'";
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 114;
+		rType = 1;
+	};
+	89FF7E6C142BE2230028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 115";
+		rLen = 0;
+		rLoc = 2983;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 2718;
+	};
+	89FF7E6D142BE2230028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 57";
+		rLen = 11;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 1167;
+		vrLoc = 219;
+	};
+	89FF7E6E142BE2230028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 27";
+		rLen = 0;
+		rLoc = 820;
+		rType = 0;
+		vrLen = 1218;
+		vrLoc = 1110;
+	};
+	89FF7E73142BE2ED0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 115";
+		rLen = 0;
+		rLoc = 2983;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 2791;
+	};
+	89FF7E74142BE2ED0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 27";
+		rLen = 0;
+		rLoc = 820;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 1110;
+	};
+	89FF7E75142BE2ED0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 166";
+		rLen = 0;
+		rLoc = 4805;
+		rType = 0;
+		vrLen = 1649;
+		vrLoc = 4032;
+	};
+	89FF7E76142BE2ED0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 57";
+		rLen = 11;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 1161;
+		vrLoc = 821;
+	};
+	89FF7E77142BE2ED0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 67";
+		rLen = 0;
+		rLoc = 1755;
+		rType = 0;
+		vrLen = 1159;
+		vrLoc = 821;
+	};
+	89FF7E7A142BE2F40028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 115";
+		rLen = 0;
+		rLoc = 2983;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 2791;
+	};
+	89FF7E7D142BE30D0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 115";
+		rLen = 0;
+		rLoc = 2983;
+		rType = 0;
+		vrLen = 653;
+		vrLoc = 2910;
+	};
+	89FF7E7E142BE30D0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 165";
+		rLen = 0;
+		rLoc = 4805;
+		rType = 0;
+		vrLen = 2026;
+		vrLoc = 3434;
+	};
+	89FF7E7F142BE30D0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 67";
+		rLen = 0;
+		rLoc = 1755;
+		rType = 0;
+		vrLen = 1159;
+		vrLoc = 821;
+	};
+	89FF7E82142BE3130028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 39";
+		rLen = 0;
+		rLoc = 1413;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 2277;
+	};
+	89FF7E83142BE3130028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 116";
+		rLen = 0;
+		rLoc = 3019;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 2765;
+	};
+	89FF7E84142BE3130028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 116";
+		rLen = 0;
+		rLoc = 3019;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 2791;
+	};
+	89FF7E86142BE3580028B933 /* pkmSIFTImage.cpp:117 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		functionName = "pkmSIFTImage::computeSIFTImageOpenCV(unsigned char *pixels, int w, int h)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 117;
+		location = pkmSIFTImageDebug;
+		modificationTime = 338420774.793514;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	89FF7E8A142BE35C0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 116";
+		rLen = 0;
+		rLoc = 3019;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 2725;
+	};
+	89FF7E8B142BE35C0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 116";
+		rLen = 0;
+		rLoc = 3019;
+		rType = 0;
+		vrLen = 635;
+		vrLoc = 2730;
+	};
+	89FF7E8C142BE35C0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 148";
+		rLen = 0;
+		rLoc = 3991;
+		rType = 0;
+		vrLen = 1682;
+		vrLoc = 2725;
+	};
+	89FF7E8D142BE35C0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 148";
+		rLen = 0;
+		rLoc = 3991;
+		rType = 0;
+		vrLen = 1676;
+		vrLoc = 2725;
+	};
+	89FF7E8E142BE35C0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 67";
+		rLen = 0;
+		rLoc = 1755;
+		rType = 0;
+		vrLen = 1159;
+		vrLoc = 821;
+	};
+	89FF7E92142BE3930028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 116";
+		rLen = 0;
+		rLoc = 3019;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 2791;
+	};
+	89FF7E93142BE3930028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 167";
+		rLen = 0;
+		rLoc = 4720;
+		rType = 0;
+		vrLen = 1894;
+		vrLoc = 3434;
+	};
+	89FF7E94142BE3930028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 67";
+		rLen = 0;
+		rLoc = 1755;
+		rType = 0;
+		vrLen = 1159;
+		vrLoc = 821;
+	};
+	89FF7E96142BE3980028B933 /* pkmSIFTImage.cpp:118 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		functionName = "pkmSIFTImage::computeSIFTImageOpenCV(unsigned char *pixels, int w, int h)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 118;
+		location = pkmSIFTImageDebug;
+		modificationTime = 338420774.793934;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	89FF7E9A142BE3A20028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 116";
+		rLen = 0;
+		rLoc = 3019;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 2791;
+	};
+	89FF7E9B142BE3B10028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 116";
+		rLen = 0;
+		rLoc = 3019;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 2791;
+	};
+	89FF7E9C142BE3B10028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 167";
+		rLen = 0;
+		rLoc = 4720;
+		rType = 0;
+		vrLen = 1662;
+		vrLoc = 2490;
+	};
+	89FF7E9D142BE3B10028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 167";
+		rLen = 0;
+		rLoc = 4720;
+		rType = 0;
+		vrLen = 1662;
+		vrLoc = 2490;
+	};
+	89FF7E9E142BE3B10028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 67";
+		rLen = 0;
+		rLoc = 1755;
+		rType = 0;
+		vrLen = 1159;
+		vrLoc = 821;
+	};
+	89FF7EA1142BE4270028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 116";
+		rLen = 0;
+		rLoc = 3019;
+		rType = 0;
+		vrLen = 620;
+		vrLoc = 2910;
+	};
+	89FF7EA2142BE4270028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */;
+		name = "pkmSIFTImage.cpp: 164";
+		rLen = 0;
+		rLoc = 4720;
+		rType = 0;
+		vrLen = 1704;
+		vrLoc = 2490;
+	};
+	89FF7EA3142BE4270028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 67";
+		rLen = 0;
+		rLoc = 1755;
+		rType = 0;
+		vrLen = 1159;
+		vrLoc = 821;
+	};
 	E44666030F5B3E03005D0BF0 /* ofxDirList.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {747, 707}}";
@@ -5266,7 +5776,9 @@
 			89B917E4140EA5C500C756FC /* testApp.cpp:53 */,
 			89B919A9140FDF0200C756FC /* testApp.cpp:103 */,
 			8933181114167CBA0049ED8B /* testApp.cpp:88 */,
-			89FF7D28142BD0B10028B933 /* pkmSIFTImage.cpp:112 */,
+			89FF7D28142BD0B10028B933 /* pkmSIFTImage.cpp:161 */,
+			89FF7E86142BE3580028B933 /* pkmSIFTImage.cpp:117 */,
+			89FF7E96142BE3980028B933 /* pkmSIFTImage.cpp:118 */,
 		);
 		codeSenseManager = 899D5BFA13FC039100C66711 /* Code sense */;
 		executables = (
@@ -5874,6 +6386,53 @@
 			89FF7E43142BDA490028B933 /* PBXTextBookmark */ = 89FF7E43142BDA490028B933 /* PBXTextBookmark */;
 			89FF7E44142BDA490028B933 /* PBXTextBookmark */ = 89FF7E44142BDA490028B933 /* PBXTextBookmark */;
 			89FF7E45142BDB4C0028B933 /* PBXTextBookmark */ = 89FF7E45142BDB4C0028B933 /* PBXTextBookmark */;
+			89FF7E48142BE12B0028B933 /* PBXTextBookmark */ = 89FF7E48142BE12B0028B933 /* PBXTextBookmark */;
+			89FF7E49142BE12B0028B933 /* PBXTextBookmark */ = 89FF7E49142BE12B0028B933 /* PBXTextBookmark */;
+			89FF7E4B142BE12B0028B933 /* PBXTextBookmark */ = 89FF7E4B142BE12B0028B933 /* PBXTextBookmark */;
+			89FF7E4C142BE12B0028B933 /* PBXTextBookmark */ = 89FF7E4C142BE12B0028B933 /* PBXTextBookmark */;
+			89FF7E4F142BE12B0028B933 /* PBXTextBookmark */ = 89FF7E4F142BE12B0028B933 /* PBXTextBookmark */;
+			89FF7E50142BE12B0028B933 /* PBXTextBookmark */ = 89FF7E50142BE12B0028B933 /* PBXTextBookmark */;
+			89FF7E53142BE12B0028B933 /* PBXTextBookmark */ = 89FF7E53142BE12B0028B933 /* PBXTextBookmark */;
+			89FF7E54142BE12B0028B933 /* PBXTextBookmark */ = 89FF7E54142BE12B0028B933 /* PBXTextBookmark */;
+			89FF7E60142BE1DE0028B933 /* XCBuildMessageTextBookmark */ = 89FF7E60142BE1DE0028B933 /* XCBuildMessageTextBookmark */;
+			89FF7E61142BE1DE0028B933 /* PBXTextBookmark */ = 89FF7E61142BE1DE0028B933 /* PBXTextBookmark */;
+			89FF7E62142BE1DE0028B933 /* PBXTextBookmark */ = 89FF7E62142BE1DE0028B933 /* PBXTextBookmark */;
+			89FF7E63142BE1DE0028B933 /* PBXTextBookmark */ = 89FF7E63142BE1DE0028B933 /* PBXTextBookmark */;
+			89FF7E64142BE1DE0028B933 /* PBXTextBookmark */ = 89FF7E64142BE1DE0028B933 /* PBXTextBookmark */;
+			89FF7E65142BE1DE0028B933 /* PBXTextBookmark */ = 89FF7E65142BE1DE0028B933 /* PBXTextBookmark */;
+			89FF7E6A142BE2230028B933 /* PBXTextBookmark */ = 89FF7E6A142BE2230028B933 /* PBXTextBookmark */;
+			89FF7E6B142BE2230028B933 /* XCBuildMessageTextBookmark */ = 89FF7E6B142BE2230028B933 /* XCBuildMessageTextBookmark */;
+			89FF7E6C142BE2230028B933 /* PBXTextBookmark */ = 89FF7E6C142BE2230028B933 /* PBXTextBookmark */;
+			89FF7E6D142BE2230028B933 /* PBXTextBookmark */ = 89FF7E6D142BE2230028B933 /* PBXTextBookmark */;
+			89FF7E6E142BE2230028B933 /* PBXTextBookmark */ = 89FF7E6E142BE2230028B933 /* PBXTextBookmark */;
+			89FF7E73142BE2ED0028B933 /* PBXTextBookmark */ = 89FF7E73142BE2ED0028B933 /* PBXTextBookmark */;
+			89FF7E74142BE2ED0028B933 /* PBXTextBookmark */ = 89FF7E74142BE2ED0028B933 /* PBXTextBookmark */;
+			89FF7E75142BE2ED0028B933 /* PBXTextBookmark */ = 89FF7E75142BE2ED0028B933 /* PBXTextBookmark */;
+			89FF7E76142BE2ED0028B933 /* PBXTextBookmark */ = 89FF7E76142BE2ED0028B933 /* PBXTextBookmark */;
+			89FF7E77142BE2ED0028B933 /* PBXTextBookmark */ = 89FF7E77142BE2ED0028B933 /* PBXTextBookmark */;
+			89FF7E7A142BE2F40028B933 /* PBXTextBookmark */ = 89FF7E7A142BE2F40028B933 /* PBXTextBookmark */;
+			89FF7E7D142BE30D0028B933 /* PBXTextBookmark */ = 89FF7E7D142BE30D0028B933 /* PBXTextBookmark */;
+			89FF7E7E142BE30D0028B933 /* PBXTextBookmark */ = 89FF7E7E142BE30D0028B933 /* PBXTextBookmark */;
+			89FF7E7F142BE30D0028B933 /* PBXTextBookmark */ = 89FF7E7F142BE30D0028B933 /* PBXTextBookmark */;
+			89FF7E82142BE3130028B933 /* PBXTextBookmark */ = 89FF7E82142BE3130028B933 /* PBXTextBookmark */;
+			89FF7E83142BE3130028B933 /* PBXTextBookmark */ = 89FF7E83142BE3130028B933 /* PBXTextBookmark */;
+			89FF7E84142BE3130028B933 /* PBXTextBookmark */ = 89FF7E84142BE3130028B933 /* PBXTextBookmark */;
+			89FF7E8A142BE35C0028B933 /* PBXTextBookmark */ = 89FF7E8A142BE35C0028B933 /* PBXTextBookmark */;
+			89FF7E8B142BE35C0028B933 /* PBXTextBookmark */ = 89FF7E8B142BE35C0028B933 /* PBXTextBookmark */;
+			89FF7E8C142BE35C0028B933 /* PBXTextBookmark */ = 89FF7E8C142BE35C0028B933 /* PBXTextBookmark */;
+			89FF7E8D142BE35C0028B933 /* PBXTextBookmark */ = 89FF7E8D142BE35C0028B933 /* PBXTextBookmark */;
+			89FF7E8E142BE35C0028B933 /* PBXTextBookmark */ = 89FF7E8E142BE35C0028B933 /* PBXTextBookmark */;
+			89FF7E92142BE3930028B933 /* PBXTextBookmark */ = 89FF7E92142BE3930028B933 /* PBXTextBookmark */;
+			89FF7E93142BE3930028B933 /* PBXTextBookmark */ = 89FF7E93142BE3930028B933 /* PBXTextBookmark */;
+			89FF7E94142BE3930028B933 /* PBXTextBookmark */ = 89FF7E94142BE3930028B933 /* PBXTextBookmark */;
+			89FF7E9A142BE3A20028B933 /* PBXTextBookmark */ = 89FF7E9A142BE3A20028B933 /* PBXTextBookmark */;
+			89FF7E9B142BE3B10028B933 /* PBXTextBookmark */ = 89FF7E9B142BE3B10028B933 /* PBXTextBookmark */;
+			89FF7E9C142BE3B10028B933 /* PBXTextBookmark */ = 89FF7E9C142BE3B10028B933 /* PBXTextBookmark */;
+			89FF7E9D142BE3B10028B933 /* PBXTextBookmark */ = 89FF7E9D142BE3B10028B933 /* PBXTextBookmark */;
+			89FF7E9E142BE3B10028B933 /* PBXTextBookmark */ = 89FF7E9E142BE3B10028B933 /* PBXTextBookmark */;
+			89FF7EA1142BE4270028B933 /* PBXTextBookmark */ = 89FF7EA1142BE4270028B933 /* PBXTextBookmark */;
+			89FF7EA2142BE4270028B933 /* PBXTextBookmark */ = 89FF7EA2142BE4270028B933 /* PBXTextBookmark */;
+			89FF7EA3142BE4270028B933 /* PBXTextBookmark */ = 89FF7EA3142BE4270028B933 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 899D5BF913FC039100C66711 /* Source Control */;
 		userBuildSettings = {
@@ -5895,17 +6454,17 @@
 	};
 	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {866, 1974}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 1904}}";
 			sepNavSelRange = "{1413, 0}";
-			sepNavVisRange = "{3201, 1329}";
+			sepNavVisRange = "{2277, 594}";
 			sepNavWindowFrame = "{{569, 24}, {871, 854}}";
 		};
 	};
 	E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {801, 1050}}";
+			sepNavIntBoundsRect = "{{0, 0}, {801, 924}}";
 			sepNavSelRange = "{348, 0}";
-			sepNavVisRange = "{3, 1204}";
+			sepNavVisRange = "{3, 1170}";
 			sepNavWindowFrame = "{{569, 24}, {871, 854}}";
 		};
 	};

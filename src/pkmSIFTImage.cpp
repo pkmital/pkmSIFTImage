@@ -24,6 +24,8 @@
 
 pkmSIFTImage::pkmSIFTImage()
 {
+    mode = MODE_OPENCV;
+    
     stepSize = 1;
     cellSize = 3;
     alpha = 9;
@@ -46,15 +48,31 @@ pkmSIFTImage::~pkmSIFTImage()
 
 void pkmSIFTImage::allocate(int w, int h)
 {
-    if(!grayImg.matchDimension(w,h,1))
+    if(width != w || height != h)
     {
         printf("[pkmSIFTImage]: Reallocating...\n");
-        grayImg.allocate(w,h);
-        if (bAllocatedCompressedSIFT) {
-            delete compressedSiftImg;
-            bAllocatedCompressedSIFT = false;
+        
+        if (mode == MODE_TORRALBA) {
+            grayImg.allocate(w,h);
+            if (bAllocatedCompressedSIFT) {
+                delete compressedSiftImg;
+                bAllocatedCompressedSIFT = false;
+            }
+        }
+        else if (mode == MODE_OPENCV) {
+            imageKeypoints.clear();
+            for(int i = 0; i < h; i++)
+            {
+                for(int j = 0; j < w; j++)
+                {
+                    imageKeypoints.push_back(KeyPoint(Point2f(j,i), cellSize));
+                }
+            }
         }
     }
+    
+    descriptorExtractor = DescriptorExtractor::create( "SIFT" );
+    
     width = w;
     height = h;
     
@@ -66,16 +84,37 @@ void pkmSIFTImage::computeSIFTImage(unsigned char *pixels, int w, int h)
         allocate(w,h);
     }
     
-#ifdef _UNSAFE
-        memcpy(grayImg.pData, pixels, sizeof(unsigned char)*w*h);
-        ImageFeature::imSIFT(grayImg, siftImg, cellSize, stepSize, true, 8);
-#else
-        std::swap(grayImg.pData, pixels);
-        ImageFeature::imSIFT(grayImg, siftImg, cellSize, stepSize, true, 8);
-        std::swap(grayImg.pData, pixels);
-#endif
+    if (mode == MODE_TORRALBA) {
+        computeSIFTImageTorralba(pixels, w, h);
+    }
+    else if (mode == MODE_OPENCV) {
+        computeSIFTImageOpenCV(pixels, w, h);
+    }
+}
 
+void pkmSIFTImage::computeSIFTImageTorralba(unsigned char *pixels, int w, int h)
+{
+
+#ifdef _UNSAFE
+    memcpy(grayImg.pData, pixels, sizeof(unsigned char)*w*h);
+    ImageFeature::imSIFT(grayImg, siftImg, cellSize, stepSize, true, 8);
+#else
+    std::swap(grayImg.pData, pixels);
+    ImageFeature::imSIFT(grayImg, siftImg, cellSize, stepSize, true, 8);
+    std::swap(grayImg.pData, pixels);
+#endif
+    
     siftDim = siftImg.nchannels();
+    bComputedSIFT = true;
+    bComputedCompressedSIFT = false;
+}
+
+void pkmSIFTImage::computeSIFTImageOpenCV(unsigned char *pixels, int w, int h)
+{
+    Mat img = Mat(h,w,CV_8UC1,pixels);
+    descriptorExtractor->compute(img, imageKeypoints, descriptors);
+
+    siftDim = descriptors.cols;
     bComputedSIFT = true;
     bComputedCompressedSIFT = false;
 }
@@ -110,13 +149,20 @@ bool pkmSIFTImage::computeCompressedSIFTImage()
     }
     if (!bComputedCompressedSIFT) 
     {
-        for(int i = 0; i < pcaset.rows; i++)
-        {
-            unsigned char* pca_ptr = pcaset.ptr<unsigned char>(i);
-            const unsigned char* sift_ptr = siftImg.pData + i*siftDim;
-            memcpy(pca_ptr, sift_ptr, sizeof(unsigned char) * siftDim);
+        if (mode == MODE_TORRALBA) {
+            for(int i = 0; i < pcaset.rows; i++)
+            {
+                unsigned char* pca_ptr = pcaset.ptr<unsigned char>(i);
+                const unsigned char* sift_ptr = siftImg.pData + i*siftDim;
+                memcpy(pca_ptr, sift_ptr, sizeof(unsigned char) * siftDim);
+            }
+            
+            pcaset.convertTo(pcaset32, CV_32FC1);
         }
-        pcaset.convertTo(pcaset32, CV_32FC1);
+        else if(mode == MODE_OPENCV)
+        {
+            descriptors.convertTo(pcaset32, CV_32FC1);
+        }
         projected = pcaSIFT * pcaset32.t();
 
         // Map the first PCA dimension to luminance (R+G+B), 

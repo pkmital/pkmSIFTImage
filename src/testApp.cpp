@@ -47,11 +47,14 @@ void testApp::setup()
 	totalFrames             = videoReader->getTotalNumFrames();
 	currentFrame            = 1;
     
-    siftImage.allocate(videoReader->getWidth(), videoReader->getHeight());
     colorImg.allocate(videoReader->getWidth(), videoReader->getHeight());
     grayImg.allocate(videoReader->getWidth(), videoReader->getHeight());
     colorSiftImg.allocate(videoReader->getWidth(), videoReader->getHeight());
     
+    siftDim = 128;
+    siftImage.allocate(siftDim, siftDim);
+    grayImgRsz.allocate(siftDim, siftDim);
+    colorSiftImgRsz.allocate(siftDim, siftDim);
     //string output = ofToDataPath(string("out.mov"));
     //videoSaver.setup(videoReader->getWidth(), videoReader->getHeight(), output);
     //videoSaver.setCodecPhotoJpeg();
@@ -71,15 +74,15 @@ void testApp::update(){
         
         colorImg.setFromPixels(videoReader->getPixels(), videoReader->getWidth(), videoReader->getHeight());
         grayImg = colorImg;
-        siftImage.computeSIFTImage(grayImg.getPixels(), videoReader->getWidth(), videoReader->getHeight());
-        
+        grayImgRsz.scaleIntoMe(grayImg, CV_INTER_LINEAR);
+        siftImage.computeSIFTImage(grayImgRsz.getPixels(), siftDim, siftDim);
         // get reprojection for drawing
-        colorSiftImg.setFromPixels(siftImage.getSIFTImageForDrawing(), videoReader->getWidth(), videoReader->getHeight());
-        colorSiftImg.convertHsvToRgb();
+        colorSiftImgRsz.setFromPixels(siftImage.getSIFTImageForDrawing(), siftDim, siftDim);
+        colorSiftImg.scaleIntoMe(colorSiftImgRsz, CV_INTER_NN);
         //colorSiftImg.scale(siftImage.stepSize, 1.0);
-        colorSiftImgLab.flagImageChanged();
+        //colorSiftImgLab.flagImageChanged();
         
-        currentFrame += 5;
+        currentFrame ++;
     }
     else {
         OF_EXIT_APP(0);
@@ -90,8 +93,10 @@ void testApp::update(){
 //--------------------------------------------------------------
 void testApp::draw() {
     ofBackground(0);
+    
     colorImg.draw(20, 20);
     colorSiftImg.draw(60 + videoReader->getWidth(), 20);
+    colorSiftImgRsz.draw(60 + videoReader->getWidth(), 20);
     
 	sprintf(buf, "fps: %02.2f", ofGetFrameRate());
 	ofDrawBitmapString(buf, ofPoint(20,videoReader->getHeight() + 40));

@@ -24,7 +24,7 @@
 
 pkmSIFTImage::pkmSIFTImage()
 {
-    mode = MODE_OPENCV;
+    mode = MODE_TORRALBA;
     
     stepSize = 1;
     cellSize = 3;
@@ -51,36 +51,32 @@ void pkmSIFTImage::allocate(int w, int h)
     if(width != w || height != h)
     {
         printf("[pkmSIFTImage]: Reallocating...\n");
-        
-        //if (mode == MODE_TORRALBA) {
-            grayImg.allocate(w,h);
-            if (bAllocatedCompressedSIFT) {
-                delete compressedSiftImg;
-                bAllocatedCompressedSIFT = false;
-            }
-        //}
-        //else if (mode == MODE_OPENCV) {
-            imageKeypoints.clear();
-            for(int i = 0; i < h; i+=stepSize)
+        grayImg.allocate(w,h);
+        if (bAllocatedCompressedSIFT) {
+            delete compressedSiftImg;
+            bAllocatedCompressedSIFT = false;
+        }
+
+        imageKeypoints.clear();
+        for(int i = 0; i < h; i+=stepSize)
+        {
+            for(int j = 0; j < w; j+=stepSize)
             {
-                for(int j = 0; j < w; j+=stepSize)
-                {
-                    imageKeypoints.push_back(KeyPoint(Point2f(j,i), cellSize));
-                }
+                imageKeypoints.push_back(KeyPoint(Point2f(j,i), cellSize));
             }
-            
-            descriptorExtractor = new SiftDescriptorExtractor( SIFT::DescriptorParams(2,        // magnification
-                                                                                      true,     // normalize?
-                                                                                      true),    // recalculate angles?
-                                                              SIFT::CommonParams(3,             // number of octaves
-                                                                                 1,             // number of octave layers
-                                                                                 -1,            // first octave
-                                                                                 1) );          // FIRST_ANGLE = 0, AVERAGE_ANGLE = 1
+        }
     
-        //}
+        descriptorExtractorSurf = new SurfDescriptorExtractor(  4,        // octaves
+                                                                2,        // layers
+                                                                true );   // extended?
+        descriptorExtractor = new SiftDescriptorExtractor(SIFT::DescriptorParams(   1,        // magnification
+                                                                                    true,     // normalize?
+                                                                                    true),    // recalculate angles?
+                                                          SIFT::CommonParams(   4,             // number of octaves
+                                                                                2,             // number of octave layers
+                                                                                -1,             // first octave
+                                                                                0) );          // FIRST_ANGLE = 0, AVERAGE_ANGLE = 1
     }
-    
-    
     width = w;
     height = h;
     
@@ -95,7 +91,7 @@ void pkmSIFTImage::computeSIFTImage(unsigned char *pixels, int w, int h)
     if (mode == MODE_TORRALBA) {
         computeSIFTImageTorralba(pixels, w, h);
     }
-    else if (mode == MODE_OPENCV) {
+    else if (mode == MODE_OPENCV || mode == MODE_OPENCV_SURF) {
         computeSIFTImageOpenCV(pixels, w, h);
     }
 }
@@ -120,8 +116,14 @@ void pkmSIFTImage::computeSIFTImageTorralba(unsigned char *pixels, int w, int h)
 void pkmSIFTImage::computeSIFTImageOpenCV(unsigned char *pixels, int w, int h)
 {
     Mat img = Mat(h,w,CV_8UC1,pixels);
-    descriptorExtractor->compute(img, imageKeypoints, descriptors);
-
+    
+    if (mode == MODE_OPENCV) {
+        descriptorExtractor->compute(img, imageKeypoints, descriptors);
+    }
+    else if (mode == MODE_OPENCV_SURF) {
+        descriptorExtractorSurf->compute(img, imageKeypoints, descriptors);
+    }
+    
     siftDim = descriptors.cols;
     bComputedSIFT = true;
     bComputedCompressedSIFT = false;
@@ -168,7 +170,7 @@ bool pkmSIFTImage::computeCompressedSIFTImage()
             pcaset.convertTo(pcaset32, CV_32FC1);
             projected = pcaSIFT * pcaset32.t();
         }
-        else if(mode == MODE_OPENCV)
+        else if(mode == MODE_OPENCV || mode == MODE_OPENCV_SURF)
         {
             projected = pcaSIFT * descriptors.t();
         }
@@ -177,15 +179,19 @@ bool pkmSIFTImage::computeCompressedSIFTImage()
         // map the second to R-G and the third one to (R+G)/2-B
         siftColor = A * projected;
         double minv, maxv;
-        minMaxLoc(siftColor, &minv, &maxv);
-        siftColor = (siftColor - minv) / (maxv - minv) * 255.0f;
+        minMaxLoc(siftColor.rowRange(0,1), &minv, &maxv);
+        siftColor.rowRange(0,1) = (siftColor.rowRange(0,1) - minv) / (maxv - minv) * 255.0f;
+        minMaxLoc(siftColor.rowRange(1,2), &minv, &maxv);
+        siftColor.rowRange(1,2) = (siftColor.rowRange(1,2) - minv) / (maxv - minv) * 255.0f;
+        minMaxLoc(siftColor.rowRange(2,3), &minv, &maxv);
+        siftColor.rowRange(2,3) = (siftColor.rowRange(2,3) - minv) / (maxv - minv) * 255.0f;
         for(int i = 0; i < height; i++)
         {
             unsigned char* pix_ptr = compressedSiftImg + i*width*3;
             for (int j = 0; j < width; j++) {
-                *pix_ptr++ = siftColor.at<float>(2,i*width + j);
-                *pix_ptr++ = siftColor.at<float>(1,i*width + j);
                 *pix_ptr++ = siftColor.at<float>(0,i*width + j);
+                *pix_ptr++ = siftColor.at<float>(1,i*width + j);
+                *pix_ptr++ = siftColor.at<float>(2,i*width + j);
             }
         }
         bComputedCompressedSIFT = true;

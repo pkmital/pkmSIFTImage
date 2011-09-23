@@ -49,7 +49,7 @@ void ImageFeature::imSIFT(const Image<T1> imsrc, Image<T2> &imsift,int cellSize,
 	{
 		int offset = i*nchannels;
 		for(int j = 0;j<nchannels;j++)
-			magsrc.pData[offset+j] = sqrt(imdx.pData[offset+j]*imdx.pData[offset+j]+imdy.pData[offset+j]*imdy.pData[offset+j]);
+			magsrc.pData[offset+j] = sqrtf(imdx.pData[offset+j]*imdx.pData[offset+j]+imdy.pData[offset+j]*imdy.pData[offset+j]);
 		Max = magsrc.pData[offset];
 		if(Max!=0)
 		{
@@ -74,8 +74,8 @@ void ImageFeature::imSIFT(const Image<T1> imsrc, Image<T2> &imsift,int cellSize,
 	double _cos,_sin,temp;
 	for(int k = 0;k<nBins;k++)
 	{
-		_sin    = sin(theta*k);
-		_cos   = cos(theta*k);
+		_sin    = sinf(theta*k);
+		_cos   = cosf(theta*k);
 		for(int i = 0;i<nPixels; i++)
 		{
 			temp = __max(gradient.pData[i*2]*_cos + gradient.pData[i*2+1]*_sin,0);
@@ -138,7 +138,7 @@ void ImageFeature::imSIFT(const Image<T1> imsrc, Image<T2> &imsift,int cellSize,
 					count++;
 				}
 			// normalize the SIFT descriptor
-			double mag = sqrt(sift_cell.norm2());
+			double mag = sqrtf(sift_cell.norm2());
 			int offset = (i*sift_width+j)*siftdim;
 			//memcpy(imsift.pData+offset,sift_cell.pData,sizeof(double)*siftdim);
 			for(int k = 0;k<siftdim;k++)

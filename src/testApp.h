@@ -63,13 +63,14 @@ public:
 	int								currentFrame,           // current frame in the video
                                     totalFrames;            // total video frames
     
-    ofxCvColorImage                 colorImg, colorSiftImgLab, colorSiftImg;
-    ofxCvGrayscaleImage             grayImg;
+    ofxCvColorImage                 colorImg, colorSiftImgLab, colorSiftImg, colorSiftImgRsz;
+    ofxCvGrayscaleImage             grayImg, grayImgRsz;
     
     
     ofQtVideoSaver                  videoSaver;
     
     pkmSIFTImage                    siftImage;
+    int                             siftDim;
     
 	char							buf[256];
 	bool							bSetup;

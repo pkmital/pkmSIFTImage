@@ -27,8 +27,9 @@ using namespace cv;
 #include "ImageFeature.h"
 
 enum SIFTMODE {
-    MODE_OPENCV = 0,
-    MODE_TORRALBA = 1
+    MODE_TORRALBA = 0,
+    MODE_OPENCV = 1,
+    MODE_OPENCV_SURF = 2
 };
 
 class pkmSIFTImage
@@ -47,8 +48,12 @@ public:
             mode = MODE_OPENCV;
         }
         else if( mode == MODE_OPENCV) {
+            mode = MODE_OPENCV_SURF;
+        }
+        else if( mode == MODE_OPENCV_SURF) {
             mode = MODE_TORRALBA;
         }
+        
     }
     
     string getMode()
@@ -58,6 +63,9 @@ public:
         }
         else if(mode == MODE_TORRALBA) {
             return string("Torralba based SIFT");
+        }
+        else if(mode == MODE_OPENCV_SURF) {
+            return string("OpenCV based SURF");
         }
     }
     
@@ -73,6 +81,7 @@ protected:
     
     // OpenCV based SIFT
     cv::Ptr<SiftDescriptorExtractor> descriptorExtractor;
+    cv::Ptr<SurfDescriptorExtractor> descriptorExtractorSurf;
     vector<KeyPoint> imageKeypoints;
     Mat descriptors;
     

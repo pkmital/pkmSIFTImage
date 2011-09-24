@@ -69,6 +69,12 @@ public:
         }
     }
     
+    Mat getSIFTImage()
+    {
+        opencvSiftImg = Mat(cv::Size(width, height), CV_8UC(siftDim), siftImg.pData);
+        return opencvSiftImg;
+    }
+    
     unsigned char * getSIFTImageForDrawing();
     
 protected:
@@ -91,6 +97,7 @@ protected:
     
     // Image containers
     Image<unsigned char> grayImg, siftImg;
+    Mat opencvSiftImg;
     
     // For compressing the SIFT image (for drawing only)
     bool computeCompressedSIFTImage();

@@ -78,7 +78,8 @@ void testApp::update(){
         siftImage.computeSIFTImage(grayImgRsz.getPixels(), siftDim, siftDim);
         // get reprojection for drawing
         colorSiftImgRsz.setFromPixels(siftImage.getSIFTImageForDrawing(), siftDim, siftDim);
-        colorSiftImg.scaleIntoMe(colorSiftImgRsz, CV_INTER_NN);
+        //colorSiftImgRsz.convertHsvToRgb();
+        //colorSiftImg.scaleIntoMe(colorSiftImgRsz, CV_INTER_NN);
         //colorSiftImg.scale(siftImage.stepSize, 1.0);
         //colorSiftImgLab.flagImageChanged();
         
@@ -95,8 +96,8 @@ void testApp::draw() {
     ofBackground(0);
     
     colorImg.draw(20, 20);
-    colorSiftImg.draw(60 + videoReader->getWidth(), 20);
-    colorSiftImgRsz.draw(60 + videoReader->getWidth(), 20);
+    colorSiftImgRsz.draw(60 + videoReader->getWidth(), 20, videoReader->getWidth(), videoReader->getHeight());
+    //colorSiftImgRsz.draw(60 + videoReader->getWidth(), 20);
     
 	sprintf(buf, "fps: %02.2f", ofGetFrameRate());
 	ofDrawBitmapString(buf, ofPoint(20,videoReader->getHeight() + 40));

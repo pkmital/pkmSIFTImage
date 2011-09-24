@@ -302,9 +302,9 @@
 	};
 	89FF7A9B142B49690028B933 /* pkmSIFTImage.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {801, 1610}}";
-			sepNavSelRange = "{1790, 0}";
-			sepNavVisRange = "{1239, 920}";
+			sepNavIntBoundsRect = "{{0, 0}, {801, 1638}}";
+			sepNavSelRange = "{42, 667}";
+			sepNavVisRange = "{0, 964}";
 			sepNavWindowFrame = "{{399, 42}, {808, 819}}";
 		};
 	};
@@ -387,9 +387,9 @@
 	};
 	89FF7D08142BCF7A0028B933 /* PCAColorModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {826705, 364}}";
+			sepNavIntBoundsRect = "{{0, 0}, {826705, 542}}";
 			sepNavSelRange = "{703, 0}";
-			sepNavVisRange = "{0, 748}";
+			sepNavVisRange = "{0, 118850}";
 		};
 	};
 	89FF7D28142BD0B10028B933 /* pkmSIFTImage.cpp:172 */ = {
@@ -655,18 +655,18 @@
 	};
 	89FF834B142CD1710028B933 /* pkmSIFTFlow.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {749, 714}}";
-			sepNavSelRange = "{1145, 0}";
-			sepNavVisRange = "{0, 1342}";
+			sepNavIntBoundsRect = "{{0, 0}, {749, 924}}";
+			sepNavSelRange = "{1711, 0}";
+			sepNavVisRange = "{0, 1428}";
 			sepNavWindowFrame = "{{598, 59}, {808, 819}}";
 		};
 	};
 	89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {749, 2618}}";
-			sepNavSelRange = "{1897, 0}";
-			sepNavVisRange = "{831, 1795}";
-			sepNavWindowFrame = "{{156, 59}, {808, 819}}";
+			sepNavIntBoundsRect = "{{0, 0}, {801, 2856}}";
+			sepNavSelRange = "{710, 0}";
+			sepNavVisRange = "{0, 1201}";
+			sepNavWindowFrame = "{{316, 59}, {808, 819}}";
 		};
 	};
 	89FF834E142CD18E0028B933 /* BPFlow.h */ = {
@@ -740,7 +740,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 18";
 		rLen = 0;
-		rLoc = 264;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 78;
@@ -780,7 +780,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 18";
 		rLen = 0;
-		rLoc = 264;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 584;
 		vrLoc = 0;
@@ -880,7 +880,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 42";
 		rLen = 0;
-		rLoc = 335;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 937;
 		vrLoc = 144;
@@ -890,7 +890,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 42";
 		rLen = 0;
-		rLoc = 335;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 937;
 		vrLoc = 144;
@@ -920,7 +920,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 46";
 		rLen = 0;
-		rLoc = 335;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 228;
@@ -950,7 +950,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 12";
 		rLen = 0;
-		rLoc = 207;
+		rLoc = 773;
 		rType = 0;
 		vrLen = 1225;
 		vrLoc = 302;
@@ -980,7 +980,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 49";
 		rLen = 0;
-		rLoc = 335;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 1418;
 		vrLoc = 549;
@@ -1010,7 +1010,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 51";
 		rLen = 0;
-		rLoc = 335;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 1374;
 		vrLoc = 538;
@@ -1054,7 +1054,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 31";
 		rLen = 0;
-		rLoc = 284;
+		rLoc = 850;
 		rType = 0;
 		vrLen = 1502;
 		vrLoc = 807;
@@ -1064,7 +1064,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 70";
 		rLen = 0;
-		rLoc = 335;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 1583;
 		vrLoc = 771;
@@ -1131,7 +1131,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 30";
 		rLen = 0;
-		rLoc = 264;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 1096;
 		vrLoc = 208;
@@ -1141,7 +1141,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 31";
 		rLen = 0;
-		rLoc = 264;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 1087;
 		vrLoc = 0;
@@ -1188,7 +1188,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 35";
 		rLen = 0;
-		rLoc = 264;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 1223;
 		vrLoc = 140;
@@ -1279,7 +1279,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 37";
 		rLen = 0;
-		rLoc = 264;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 1148;
 		vrLoc = 144;
@@ -1289,7 +1289,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 23";
 		rLen = 0;
-		rLoc = 391;
+		rLoc = 957;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 140;
@@ -1299,7 +1299,7 @@
 		fRef = 89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */;
 		name = "pkmSIFTFlow.cpp: 12";
 		rLen = 0;
-		rLoc = 214;
+		rLoc = 779;
 		rType = 0;
 		vrLen = 890;
 		vrLoc = 0;
@@ -1309,7 +1309,7 @@
 		fRef = 89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */;
 		name = "pkmSIFTFlow.cpp: 32";
 		rLen = 0;
-		rLoc = 1029;
+		rLoc = 1594;
 		rType = 0;
 		vrLen = 1464;
 		vrLoc = 43;
@@ -1319,7 +1319,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 23";
 		rLen = 0;
-		rLoc = 391;
+		rLoc = 957;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 140;
@@ -1329,7 +1329,7 @@
 		fRef = 89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */;
 		name = "pkmSIFTFlow.cpp: 35";
 		rLen = 0;
-		rLoc = 1065;
+		rLoc = 1630;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 200;
@@ -1339,7 +1339,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 23";
 		rLen = 0;
-		rLoc = 391;
+		rLoc = 957;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 140;
@@ -1349,7 +1349,7 @@
 		fRef = 89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */;
 		name = "pkmSIFTFlow.cpp: 33";
 		rLen = 0;
-		rLoc = 468;
+		rLoc = 1033;
 		rType = 0;
 		vrLen = 1826;
 		vrLoc = 3;
@@ -1359,7 +1359,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 23";
 		rLen = 0;
-		rLoc = 391;
+		rLoc = 957;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 140;
@@ -1369,7 +1369,7 @@
 		fRef = 89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */;
 		name = "pkmSIFTFlow.cpp: 96";
 		rLen = 0;
-		rLoc = 3485;
+		rLoc = 4050;
 		rType = 0;
 		vrLen = 1537;
 		vrLoc = 1827;
@@ -1379,7 +1379,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 21";
 		rLen = 0;
-		rLoc = 301;
+		rLoc = 867;
 		rType = 0;
 		vrLen = 1102;
 		vrLoc = 207;
@@ -1439,7 +1439,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 10";
 		rLen = 0;
-		rLoc = 174;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 0;
@@ -1488,7 +1488,7 @@
 		fRef = 89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */;
 		name = "pkmSIFTFlow.cpp: 171";
 		rLen = 0;
-		rLoc = 5643;
+		rLoc = 6208;
 		rType = 0;
 		vrLen = 1306;
 		vrLoc = 831;
@@ -1533,7 +1533,7 @@
 		isa = PBXTextBookmark;
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		rLen = 0;
-		rLoc = 9223372036854775842;
+		rLoc = 9223372036854776408;
 		rType = 0;
 	};
 	89FF84DE142D5B910028B933 /* PBXTextBookmark */ = {
@@ -1541,7 +1541,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 44";
 		rLen = 0;
-		rLoc = 1145;
+		rLoc = 1711;
 		rType = 0;
 		vrLen = 1342;
 		vrLoc = 0;
@@ -1624,7 +1624,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 44";
 		rLen = 0;
-		rLoc = 1145;
+		rLoc = 1711;
 		rType = 0;
 		vrLen = 1342;
 		vrLoc = 0;
@@ -1654,7 +1654,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 44";
 		rLen = 0;
-		rLoc = 1145;
+		rLoc = 1711;
 		rType = 0;
 		vrLen = 1342;
 		vrLoc = 0;
@@ -1714,7 +1714,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 10";
 		rLen = 0;
-		rLoc = 174;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 0;
@@ -1724,7 +1724,7 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 10";
 		rLen = 0;
-		rLoc = 174;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 208;
@@ -1733,7 +1733,7 @@
 		isa = PBXTextBookmark;
 		fRef = 89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854776372;
 		rType = 0;
 	};
 	89FF8503142D5D220028B933 /* PBXTextBookmark */ = {
@@ -1741,7 +1741,7 @@
 		fRef = 89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */;
 		name = "pkmSIFTFlow.cpp: 58";
 		rLen = 0;
-		rLoc = 1897;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 1795;
 		vrLoc = 831;
@@ -1751,9 +1751,69 @@
 		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
 		name = "pkmSIFTFlow.h: 44";
 		rLen = 0;
-		rLoc = 1145;
+		rLoc = 1711;
 		rType = 0;
 		vrLen = 1342;
+		vrLoc = 0;
+	};
+	89FF8507142D5D8A0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7A9B142B49690028B933 /* pkmSIFTImage.h */;
+		name = "pkmSIFTImage.h: 5";
+		rLen = 667;
+		rLoc = 42;
+		rType = 0;
+		vrLen = 964;
+		vrLoc = 0;
+	};
+	89FF8508142D5D8A0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */;
+		name = "pkmSIFTFlow.cpp: 20";
+		rLen = 0;
+		rLoc = 710;
+		rType = 0;
+		vrLen = 1201;
+		vrLoc = 0;
+	};
+	89FF8509142D5D8A0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF7D08142BCF7A0028B933 /* PCAColorModel.h */;
+		name = "PCAColorModel.h: 18";
+		rLen = 0;
+		rLoc = 703;
+		rType = 0;
+		vrLen = 118850;
+		vrLoc = 0;
+	};
+	89FF850A142D5D8A0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
+		name = "pkmSIFTFlow.h: 20";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 1061;
+		vrLoc = 0;
+	};
+	89FF850B142D5D8A0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
+		name = "pkmSIFTFlow.h: 21";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 1057;
+		vrLoc = 0;
+	};
+	89FF850C142D5D8A0028B933 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89FF834B142CD1710028B933 /* pkmSIFTFlow.h */;
+		name = "pkmSIFTFlow.h: 57";
+		rLen = 0;
+		rLoc = 1711;
+		rType = 0;
+		vrLen = 1428;
 		vrLoc = 0;
 	};
 	E44666030F5B3E03005D0BF0 /* ofxDirList.h */ = {
@@ -2028,6 +2088,12 @@
 			89FF8502142D5D220028B933 /* PBXTextBookmark */ = 89FF8502142D5D220028B933 /* PBXTextBookmark */;
 			89FF8503142D5D220028B933 /* PBXTextBookmark */ = 89FF8503142D5D220028B933 /* PBXTextBookmark */;
 			89FF8504142D5D220028B933 /* PBXTextBookmark */ = 89FF8504142D5D220028B933 /* PBXTextBookmark */;
+			89FF8507142D5D8A0028B933 /* PBXTextBookmark */ = 89FF8507142D5D8A0028B933 /* PBXTextBookmark */;
+			89FF8508142D5D8A0028B933 /* PBXTextBookmark */ = 89FF8508142D5D8A0028B933 /* PBXTextBookmark */;
+			89FF8509142D5D8A0028B933 /* PBXTextBookmark */ = 89FF8509142D5D8A0028B933 /* PBXTextBookmark */;
+			89FF850A142D5D8A0028B933 /* PBXTextBookmark */ = 89FF850A142D5D8A0028B933 /* PBXTextBookmark */;
+			89FF850B142D5D8A0028B933 /* PBXTextBookmark */ = 89FF850B142D5D8A0028B933 /* PBXTextBookmark */;
+			89FF850C142D5D8A0028B933 /* PBXTextBookmark */ = 89FF850C142D5D8A0028B933 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 899D5BF913FC039100C66711 /* Source Control */;
 		userBuildSettings = {

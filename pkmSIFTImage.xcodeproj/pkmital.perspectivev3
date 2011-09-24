@@ -202,6 +202,46 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
+				<string>89FF8513142D66810028B933</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>pkmSIFTFlow.cpp</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>89FF8514142D66810028B933</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>pkmSIFTFlow.cpp</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>89FF8516142D66810028B933</string>
+						<key>history</key>
+						<array>
+							<string>89FF8515142D66810028B933</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {808, 731}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>316 106 808 772 0 0 1440 878 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
 				<string>89FF84DB142D5B910028B933</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>pkmSIFTFlow.h</string>
@@ -216,7 +256,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>89FF850C142D5D8A0028B933</string>
+						<string>89FF8517142D66810028B933</string>
 						<key>history</key>
 						<array>
 							<string>89FF84DD142D5B910028B933</string>
@@ -344,7 +384,7 @@
 							<real>241</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>188 75 1125 784 0 0 1440 878 </string>
+						<string>82 94 1125 784 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -374,7 +414,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>89FF850B142D5D8A0028B933</string>
+										<string>89FF8512142D66810028B933</string>
 										<key>history</key>
 										<array>
 											<string>89CE9BA114067AFB00A209EB</string>
@@ -385,14 +425,12 @@
 											<string>8944286F141FC58700DAEAED</string>
 											<string>89FF7DFC142BD90D0028B933</string>
 											<string>89FF7EC4142BE5EB0028B933</string>
-											<string>89FF7FB1142BEEED0028B933</string>
 											<string>89FF7FCA142BF3CB0028B933</string>
 											<string>89FF81AC142C1F440028B933</string>
 											<string>89FF8215142C225D0028B933</string>
 											<string>89FF832D142CBE800028B933</string>
 											<string>89FF8433142CFB5C0028B933</string>
 											<string>89FF8496142D529D0028B933</string>
-											<string>89FF84B1142D5A380028B933</string>
 											<string>89FF84E2142D5BC90028B933</string>
 											<string>89FF84E3142D5BC90028B933</string>
 											<string>89FF84F9142D5D220028B933</string>
@@ -400,10 +438,11 @@
 											<string>89FF84FB142D5D220028B933</string>
 											<string>89FF84FC142D5D220028B933</string>
 											<string>89FF84FD142D5D220028B933</string>
-											<string>89FF8507142D5D8A0028B933</string>
 											<string>89FF8508142D5D8A0028B933</string>
 											<string>89FF8509142D5D8A0028B933</string>
-											<string>89FF850A142D5D8A0028B933</string>
+											<string>89FF850F142D66810028B933</string>
+											<string>89FF8510142D66810028B933</string>
+											<string>89FF8511142D66810028B933</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -419,7 +458,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {862, 599}}</string>
 								<key>RubberWindowFrame</key>
-								<string>188 75 1125 784 0 0 1440 878 </string>
+								<string>82 94 1125 784 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -498,7 +537,7 @@
 										<key>Frame</key>
 										<string>{{10, 27}, {862, 112}}</string>
 										<key>RubberWindowFrame</key>
-										<string>188 75 1125 784 0 0 1440 878 </string>
+										<string>82 94 1125 784 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -723,9 +762,10 @@
 		<string>89FF8506142D5D220028B933</string>
 		<string>89FF84DB142D5B910028B933</string>
 		<string>/Users/pkmital/Coding/ofGit2/apps/pkm/pkmSIFTImage/pkmSIFTImage.xcodeproj</string>
+		<string>89FF8513142D66810028B933</string>
 	</array>
 	<key>WindowString</key>
-	<string>188 75 1125 784 0 0 1440 878 </string>
+	<string>82 94 1125 784 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

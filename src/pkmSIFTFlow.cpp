@@ -35,15 +35,7 @@ pkmSIFTFlow::pkmSIFTFlow()
     
     
     /*
-     // Torralba's code uses some fancy interpolation on a meshgrid based on the
-     // differences in the image sizes, and then using the meshgrid on the resultant 
-     // flow map in order to account for different image sizes.  I will just 
-     // require the same image sizes, essentially making sure the user has resized
-     // the images to the target.
-     // 
-     // But, if you feel like a meshgrid is the way to go, here is some code to get you
-     // started:
-    xx = meshgridX(1, width, 1, height);        // included in pkmOpenCvUtils.h
+    xx = meshgridX(1, width, 1, height);        
     yy = meshgridX(1, width, 1, height);
      */
     

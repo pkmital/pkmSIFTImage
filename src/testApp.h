@@ -69,7 +69,7 @@ public:
     
     ofQtVideoSaver                  videoSaver;
     
-    pkmSIFTImage                    siftImage;
+    pkmSIFTImage                    siftImage, psiftImage;
     int                             siftDim;
     
 	char							buf[256];

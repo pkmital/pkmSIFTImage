@@ -50,12 +50,12 @@ void pkmSIFTFlow::allocate(int w, int h)
     
     winSizeX_level4 = Mat::ones(height/8, width/8, CV_32SC1) * topwsize;
     winSizeY_level4 = Mat::ones(height/8, width/8, CV_32SC1) * topwsize;
-    winSizeX_level3 = Mat::ones(height/4, width/4, CV_32SC1) * (wsize + 0);
-    winSizeY_level3 = Mat::ones(height/4, width/4, CV_32SC1) * (wsize + 0);
+    winSizeX_level3 = Mat::ones(height/4, width/4, CV_32SC1) * (wsize + 2);
+    winSizeY_level3 = Mat::ones(height/4, width/4, CV_32SC1) * (wsize + 2);
     winSizeX_level2 = Mat::ones(height/2, width/2, CV_32SC1) * (wsize + 1);
     winSizeY_level2 = Mat::ones(height/2, width/2, CV_32SC1) * (wsize + 1);
-    winSizeX_level1 = Mat::ones(height/1, width/1, CV_32SC1) * (wsize + 2);
-    winSizeY_level1 = Mat::ones(height/1, width/1, CV_32SC1) * (wsize + 2);
+    winSizeX_level1 = Mat::ones(height/1, width/1, CV_32SC1) * (wsize + 0);
+    winSizeY_level1 = Mat::ones(height/1, width/1, CV_32SC1) * (wsize + 0);
 }
 
 void pkmSIFTFlow::computeFlow(Mat image1, Mat image2, int nchannels)

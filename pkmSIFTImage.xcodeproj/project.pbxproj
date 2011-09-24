@@ -26,6 +26,10 @@
 		89CE9B73140679B600A209EB /* ofxCvShortImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89CE9B01140679B500A209EB /* ofxCvShortImage.cpp */; };
 		89FF7A9D142B49690028B933 /* pkmSIFTImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89FF7A9C142B49690028B933 /* pkmSIFTImage.cpp */; };
 		89FF80B3142C1A310028B933 /* opencv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FF80B2142C1A310028B933 /* opencv.a */; };
+		89FF834D142CD1710028B933 /* pkmSIFTFlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */; };
+		89FF8350142CD18E0028B933 /* BPFlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89FF834F142CD18E0028B933 /* BPFlow.cpp */; };
+		89FF8495142D50F80028B933 /* pkmOpenCVUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89FF8494142D50F80028B933 /* pkmOpenCVUtils.cpp */; };
+		89FF84E1142D5BB30028B933 /* Stochastic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89FF84E0142D5BB30028B933 /* Stochastic.cpp */; };
 		E44667010F5B3E04005D0BF0 /* model3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E44665D70F5B3E03005D0BF0 /* model3DS.cpp */; };
 		E44667020F5B3E04005D0BF0 /* texture3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E44665D90F5B3E03005D0BF0 /* texture3DS.cpp */; };
 		E44667030F5B3E04005D0BF0 /* ofx3dModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E44665DD0F5B3E03005D0BF0 /* ofx3dModelLoader.cpp */; };
@@ -54,7 +58,7 @@
 		E49DA7E310CD40AD0006B5A8 /* freeimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E49DA7E210CD40AD0006B5A8 /* freeimage.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */; };
-		E4C2422B10CC554B004149E2 /* openFrameworks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2421E10CC549C004149E2 /* openFrameworks.a */; };
+		E4C2422B10CC554B004149E2 /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2421E10CC549C004149E2 /* openFrameworksDebug.a */; };
 		E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424410CC5A17004149E2 /* AppKit.framework */; };
 		E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424510CC5A17004149E2 /* Cocoa.framework */; };
 		E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
@@ -245,6 +249,14 @@
 		89FF81A0142C1F350028B933 /* opencv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = opencv.hpp; sourceTree = "<group>"; };
 		89FF81A2142C1F350028B933 /* background_segm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = background_segm.hpp; sourceTree = "<group>"; };
 		89FF81A3142C1F350028B933 /* tracking.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tracking.hpp; sourceTree = "<group>"; };
+		89FF834B142CD1710028B933 /* pkmSIFTFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkmSIFTFlow.h; sourceTree = "<group>"; };
+		89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pkmSIFTFlow.cpp; sourceTree = "<group>"; };
+		89FF834E142CD18E0028B933 /* BPFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPFlow.h; sourceTree = "<group>"; };
+		89FF834F142CD18E0028B933 /* BPFlow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BPFlow.cpp; sourceTree = "<group>"; };
+		89FF8493142D50F80028B933 /* pkmOpenCVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkmOpenCVUtils.h; sourceTree = "<group>"; };
+		89FF8494142D50F80028B933 /* pkmOpenCVUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pkmOpenCVUtils.cpp; sourceTree = "<group>"; };
+		89FF84DF142D5BB30028B933 /* Stochastic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stochastic.h; sourceTree = "<group>"; };
+		89FF84E0142D5BB30028B933 /* Stochastic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stochastic.cpp; sourceTree = "<group>"; };
 		E44665D70F5B3E03005D0BF0 /* model3DS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = model3DS.cpp; path = ../../../addons/ofx3DModelLoader/src/3DS/model3DS.cpp; sourceTree = SOURCE_ROOT; };
 		E44665D80F5B3E03005D0BF0 /* model3DS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = model3DS.h; path = ../../../addons/ofx3DModelLoader/src/3DS/model3DS.h; sourceTree = SOURCE_ROOT; };
 		E44665D90F5B3E03005D0BF0 /* texture3DS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = texture3DS.cpp; path = ../../../addons/ofx3DModelLoader/src/3DS/texture3DS.cpp; sourceTree = SOURCE_ROOT; };
@@ -339,7 +351,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C2422B10CC554B004149E2 /* openFrameworks.a in Frameworks */,
+				E4C2422B10CC554B004149E2 /* openFrameworksDebug.a in Frameworks */,
 				E45BE2E40E8CC69C009D7055 /* rtAudio.a in Frameworks */,
 				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
 				E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */,
@@ -1276,6 +1288,14 @@
 				89FF7AA3142B90F50028B933 /* ImageProcessing.h */,
 				89FF7AA6142B9E180028B933 /* ImageFeature.h */,
 				89FF7D08142BCF7A0028B933 /* PCAColorModel.h */,
+				89FF834B142CD1710028B933 /* pkmSIFTFlow.h */,
+				89FF834C142CD1710028B933 /* pkmSIFTFlow.cpp */,
+				89FF834E142CD18E0028B933 /* BPFlow.h */,
+				89FF834F142CD18E0028B933 /* BPFlow.cpp */,
+				89FF8493142D50F80028B933 /* pkmOpenCVUtils.h */,
+				89FF8494142D50F80028B933 /* pkmOpenCVUtils.cpp */,
+				89FF84DF142D5BB30028B933 /* Stochastic.h */,
+				89FF84E0142D5BB30028B933 /* Stochastic.cpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -1283,7 +1303,7 @@
 		E4C2421710CC549C004149E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4C2421E10CC549C004149E2 /* openFrameworks.a */,
+				E4C2421E10CC549C004149E2 /* openFrameworksDebug.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1408,10 +1428,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E4C2421E10CC549C004149E2 /* openFrameworks.a */ = {
+		E4C2421E10CC549C004149E2 /* openFrameworksDebug.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = openFrameworks.a;
+			path = openFrameworksDebug.a;
 			remoteRef = E4C2421D10CC549C004149E2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1466,6 +1486,10 @@
 				89CE9B73140679B600A209EB /* ofxCvShortImage.cpp in Sources */,
 				89B91AE31410FD5100C756FC /* ofQtVideoSaver.cpp in Sources */,
 				89FF7A9D142B49690028B933 /* pkmSIFTImage.cpp in Sources */,
+				89FF834D142CD1710028B933 /* pkmSIFTFlow.cpp in Sources */,
+				89FF8350142CD18E0028B933 /* BPFlow.cpp in Sources */,
+				89FF8495142D50F80028B933 /* pkmOpenCVUtils.cpp in Sources */,
+				89FF84E1142D5BB30028B933 /* Stochastic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
